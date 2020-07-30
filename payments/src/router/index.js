@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Pay from '../views/Pay.vue'
+import Postmortem from '../views/postmortem.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ Vue.use(VueRouter)
     path: '/pay/:id',
     name: 'Pay',
     component: Pay
+  },
+  {
+    path: '/postmortem',
+    name: 'Postmortem',
+    component: Postmortem
   },
   {
     path: '/about',

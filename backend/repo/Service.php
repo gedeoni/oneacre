@@ -149,7 +149,6 @@ Class Service{
            
             $data['amount'] =  $amount;
             $data['customerid'] = $customerid;
-            // $data['Date'] =  this will be a timestamp  
             $data['parentid'] = $summaries[$counter]['seasonid'];
             $data['seasonid'] = $summaries[$counter]['seasonid'];
             $data['seasonname'] = $summaries[$counter]['seasonname'];

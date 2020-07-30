@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <span style="font-size:1.4em;color:green"> One Acre fund </span> 
+      <span style="font-size:1.4em;color:green"> One Acre fund </span> <br>
+       <router-link to="/postmortem"> check post-mortem report  </router-link>
     </div>
     <router-view/>
   </div>
@@ -21,7 +22,7 @@
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #a0c0b1;
 
     &.router-link-exact-active {
       color: #42b983;

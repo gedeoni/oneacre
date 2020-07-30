@@ -5,7 +5,23 @@
     
     <hr>
     <div class="col-md-8 offset-md-2">
-        POST
+        POST-MORTEM 
+        <hr>
+        <div style="text-align:left"> 
+            <p class="font-weight-bold"> Project status: </p>
+            - Project was successfully completed. All functionalities were successfully implemented <br>
+            - Link to the project's web site: <a href="https://gedeon-oneacre.herokuapp.com"> gedeon-oneacre.herokuapp.com </a>
+            - Link to the project's git: <a href="https://github.com/gedeoni/oneacre"> gedeon-oneacre.git  </a>
+            <br><br><br>
+            <p class="font-weight-bold"> Estimate on the outstanding work:  </p>
+            - No outstanding work
+            <br><br><br>
+            <p class="font-weight-bold">Successes/what went well </p>
+            - I managed to finish the project with in the allocated time
+            <br><br><br>
+            <p class="font-weight-bold">Bumps/what you wished went better </p>
+            - I could have done more with the UI
+        </div>
     </div>
   </div>
 </template>
